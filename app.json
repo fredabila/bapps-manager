@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "bapps.bchat.com",
+      "googleServicesFile": "./google-services.json"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "61e0e3e7-d865-4884-9e1e-72147a81f955"
+      }
     }
   }
 }
